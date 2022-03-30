@@ -23,7 +23,7 @@ public class Var_05 {
 		 */
 		strNation ="대한민국";
 		strName = "홍길동";
-		
+		System.out.println(strName);
 		/*
 		 * 1. strNation 변수에 저장된 값을 읽는다
 		 * 2. 이 값은 그냥 데이터가 아니고 다른 기억장소의
