@@ -37,7 +37,7 @@ public class String2IntV1 {
 		 
 		 int intSum = num1 + num2;
 				 
-		 int intBinNum1 = Integer.toBinaryString(intAge);
+		 int intBinNum1 = Integer.toBinaryString(strAge);
 		 System.out.println(Line.dLine(20));
 		 System.out.printf("   %10s\n", strBinNum1);
 		 System.out.printf(" + %10s\n", strBinNum2);

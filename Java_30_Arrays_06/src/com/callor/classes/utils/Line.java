@@ -6,4 +6,8 @@ public class Line extends Object {
 		String dLine = "=";
 		return dLine.repeat(length);
 	}
+	public static String sLine(int length) {
+		String sLine = "-";
+		return sLine.repeat(length);
+	}
 }
