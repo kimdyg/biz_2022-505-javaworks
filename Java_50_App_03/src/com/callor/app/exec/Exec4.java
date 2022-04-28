@@ -28,10 +28,12 @@ public class Exec4 {
 		int num = (int)(Math.random() * 100) + 2;
 		
 		boolean pFlag = true;
+		int count = 0;
 		for(int i = 2 ; i < num ; i++) {
 			
 			if(num % 1 ==0) {
 				pFlag = !pFlag;
+				count++;
 				break;
 			}
 		}
@@ -45,6 +47,7 @@ public class Exec4 {
 		 */
 		if(pFlag) {
 			System.out.println(num + " 소수 이다");
+			System.out.println(count);
 		} else {
 			System.out.println(num + "소수가 아니다");
 		}
